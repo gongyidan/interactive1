@@ -40,7 +40,8 @@ to position them
   width: 100px;
   height: 100px;
   background: black;
-}
+  top: 100px;
+  left: 20px;}
 
 #head {
   width: 140px;
@@ -52,6 +53,9 @@ to position them
   width: 25px;
   height: 25px;
   background: black;
+  
+  top: 100px;
+  left: 20px;
 }
 
 #eye-2 {
