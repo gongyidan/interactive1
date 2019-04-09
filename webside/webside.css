@@ -1,0 +1,79 @@
+.h1 {
+    font-family: Anton, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+
+}
+
+
+
+#grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-gap: 100px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(225, 45, 25);
+}
+
+.container:hover .overlay {
+    opacity: .8;
+}
+
+.text {
+    color: white;
+    font-size: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgb(237, 54, 54);
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    text-align: center;
+    background-image: url("")
+}
+
+.grid-container {
+    grid-gap: 10%;
+}
+
+img {
+    width: 7%;
+    margin: auto;
+    display: block;
+}
