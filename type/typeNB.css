@@ -1,0 +1,1278 @@
+body {
+    background: rgb(247, 229, 208)
+}
+
+.letter {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    margin: 63px;
+}
+
+
+
+/* pieces */
+
+.vertical {
+    width: 60px;
+    height: 120%;
+    background: rgb(249, 41, 41);
+    position: absolute;
+}
+
+.vertical-thin {
+    width: 20px;
+    height: 120%;
+    background: rgb(25, 111, 240);
+    position: absolute;
+    opacity: 1;
+}
+
+.vertical-thin-half {
+    width: 20px;
+    height: 60%;
+    background: rgb(25, 111, 240);
+    position: absolute;
+    opacity: 1;
+}
+
+.horizontal {
+    width: 100%;
+    height: 60px;
+    background: red;
+    position: absolute;
+    opacity: 1;
+}
+
+.horizontal-thin {
+    width: 56%;
+    height: 20px;
+    background: rgb(25, 111, 240);
+    position: absolute;
+    opacity: 1;
+
+}
+
+/* 
+
+.vertical-thin:hover {
+    opacity: 1;
+}
+
+.vertical-thin-half:hover {
+    opacity: 1;
+}
+
+.horizontal:hover {
+    opacity: 1;
+}
+
+.horizontal-thin:hover {
+    opacity: 1;
+}
+
+.vertical.left:hover .horizontal-thin.top {
+    opacity: 1;
+}
+
+*/
+
+/* A */
+
+/* 
+style the left 
+vertical stroke in 
+'A' by combining 
+classes 
+*/
+
+
+.vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+.vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+
+.vertical-thin.right {
+    right: 0px;
+    top: 0px;
+    color: blue;
+}
+
+
+
+.vertical-thin-half.right.top {
+    right: 0px;
+    top: 0px;
+}
+
+.vertical-thin-half.right.bottom {
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.horizontal-thin.top {
+    top: 170px;
+    left: 85px;
+}
+
+.horizontal.middle {
+    top: 0px;
+    left: 0px;
+}
+
+.horizontal-thin.middle {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#A .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#A .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+
+/* B */
+
+/* 
+style the left 
+vertical stroke in 
+'A' by combining 
+classes 
+*/
+
+#B .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#B .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#B .horizontal-thin.top {
+    top: 170px;
+    left: 85px;
+}
+
+#B .horizontal-thin.middle {
+    top: 340px;
+    left: 85px;
+}
+
+#B .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+
+/* 
+
+#B .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+B .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+
+/* C */
+
+/* 
+style the left 
+vertical stroke in 
+'C' by combining 
+classes 
+*/
+
+#C .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#C .horizontal-thin.top {
+    top: 0px;
+    left: 90px;
+}
+
+
+
+#C .horizontal-thin.bottom {
+    top: 340px;
+    left: 90px;
+}
+
+/* 
+
+#C .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#C .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+
+/* D */
+
+/* 
+style the left 
+vertical stroke in 
+'D' by combining 
+classes 
+*/
+
+#D .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#D .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#D .horizontal-thin.top {
+    top: 0px;
+    left: 85px;
+}
+
+
+
+#D .horizontal-thin.bottom {
+    top: 340px;
+    left: 85px;
+}
+
+/* 
+
+#D .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#D .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+
+/* E */
+
+/* 
+style the left 
+vertical stroke in 
+'E' by combining 
+classes 
+*/
+
+#E .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#E .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#E .horizontal-thin.top {
+    top: 173px;
+    left: 85px;
+}
+
+
+
+#E .horizontal-thin.bottom {
+    top: 340px;
+    left: 85px;
+}
+
+
+#E .horizontal-thin.middle {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#E .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#E .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/*F */
+
+/* 
+style the left 
+vertical stroke in 
+'F' by combining 
+classes 
+*/
+
+#F .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#F .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#F .horizontal-thin.top {
+    top: 0px;
+    left: 85px;
+}
+
+
+
+#F .horizontal-thin.bottom {
+    top: 170px;
+    left: 85px;
+}
+
+
+#F .horizontal-thin.middle {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#F .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#F .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* G */
+
+/* 
+style the left 
+vertical stroke in 
+'G' by combining 
+classes 
+*/
+
+#G .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#G .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#G .horizontal-thin.top {
+    top: 170px;
+    left: 85px;
+}
+
+#G .horizontal-thin.middle {
+    top: 340px;
+    left: 85px;
+}
+
+#G .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+#G .vertical-thin-half.right.bottom {
+    top: 0px;
+    left: 178px;
+    top: 178px;
+    left: 177px;
+    right: 0px；
+}
+
+/* 
+
+#G .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+G .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* H */
+
+/* 
+style the left 
+vertical stroke in 
+'H' by combining 
+classes 
+*/
+
+#H .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#H .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#H .horizontal-thin.top {
+    top: 170px;
+    left: 85px;
+}
+
+
+
+#H .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#H .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+H .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* I */
+
+/* 
+style the left 
+vertical stroke in 
+'I' by combining 
+classes 
+*/
+
+#I .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+#I .horizontal-thin.top {
+    top: 0px;
+    left: -26px;
+}
+
+#I .horizontal-thin.middle {
+    top: 340px;
+    left: -26px;
+}
+
+#I .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#I .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+I .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* J */
+
+/* 
+style the left 
+vertical stroke in 
+'J' by combining 
+classes 
+*/
+
+#J .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#J .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#J .horizontal-thin.top {
+    top: 340px;
+    left: 85px;
+}
+
+
+
+#J .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+#J .vertical-thin-half.right.bottom {
+
+    top: 180px;
+    left: 176px;
+}
+
+/* 
+
+#J .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+J .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* K */
+
+/* 
+style the left 
+vertical stroke in 
+'K' by combining 
+classes 
+*/
+
+#K .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#K .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#K .horizontal-thin.top {
+    top: 49px;
+    left: 100px;
+    transform: rotate(-50deg);
+}
+
+
+
+#K .horizontal-thin.bottom {
+    top: 295px;
+    left: 85px;
+    transform: rotate(53deg);
+
+}
+
+
+/* 
+
+#K .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+K .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* L */
+
+/* 
+style the left 
+vertical stroke in 
+'L' by combining 
+classes 
+*/
+
+#L .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#L .horizontal-thin.top {
+    top: 340px;
+    left: 85px;
+}
+
+
+
+#L .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#L .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+L .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* N */
+
+/* 
+style the left 
+vertical stroke in 
+'N' by combining 
+classes 
+*/
+
+#N .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#N .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#N .horizontal-thin.top {
+    top: 95px;
+    left: 74px;
+    transform: rotate(53deg);
+}
+
+
+
+#N .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+/* 
+
+#N .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+N .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* M */
+
+/* 
+style the left 
+vertical stroke in 
+'M' by combining 
+classes 
+*/
+
+#M .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#M .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#M .horizontal-thin.top {
+    top: 63px;
+    left: 52px;
+    transform: rotate(53deg);
+}
+
+
+
+#M .horizontal-thin.bottom {
+    top: 52px;
+    left: 104px;
+    transform: rotate(124deg);
+}
+
+/* 
+
+#M .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+M .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* O */
+
+/* 
+style the left 
+vertical stroke in 
+'O' by combining 
+classes 
+*/
+
+#O .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#O .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#O .horizontal-thin.top {
+    top: 340px;
+    left: 64px;
+}
+
+
+
+#O .horizontal-thin.bottom {
+    top: 0px;
+    left: 64px;
+}
+
+/* 
+
+#O .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+O .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* P */
+
+/* 
+style the left 
+vertical stroke in 
+'P' by combining 
+classes 
+*/
+
+#P .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#P .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#P .horizontal-thin.top {
+    top: 170px;
+    left: 85px;
+}
+
+
+
+#P .horizontal-thin.bottom {
+    top: 0px;
+    left: 85px;
+}
+
+#P .vertical-thin-half.right.bottom {
+
+    top: 3px;
+    left: 111px;
+}
+
+/* 
+
+#P .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+P .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* Q */
+
+/* 
+style the left 
+vertical stroke in 
+'D' by combining 
+classes 
+*/
+
+#Q .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#Q .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#Q .horizontal-thin.top {
+    top: 0px;
+    left: 85px;
+}
+
+
+
+#Q .horizontal-thin.bottom {
+    top: 340px;
+    left: 85px;
+}
+
+#Q .horizontal-thin.middle {
+    top: 299px;
+    left: 85px;
+    transform: rotate(53deg);
+}
+
+/* 
+
+#Q .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#Q .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* R */
+
+/* 
+style the left 
+vertical stroke in 
+'R' by combining 
+classes 
+*/
+
+#R .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#R .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#R .horizontal-thin.top {
+    top: 0px;
+    left: 64px;
+}
+
+
+
+#R .horizontal-thin.bottom {
+    top: 158px;
+    left: 64px;
+}
+
+#R.vertical-thin-half.right.bottom {
+
+    top: 180px;
+    left: 176px;
+}
+
+/* 
+
+#R .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#R .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* S */
+
+/* 
+style the left 
+vertical stroke in 
+'S' by combining 
+classes 
+*/
+
+#S .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#S .horizontal-thin.top {
+    top: 0px;
+    left: 59px;
+}
+
+
+
+#S .horizontal-thin.bottom {
+    top: 340px;
+    left: -53px;
+}
+
+/* 
+
+#S .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#S .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* T */
+
+/* 
+style the left 
+vertical stroke in 
+'T' by combining 
+classes 
+*/
+
+#T .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#T .horizontal-thin.top {
+    top: 0px;
+    left: -52px;
+}
+
+#T .horizontal-thin.middle {
+    top: 0px;
+    left: 8px;
+}
+
+
+
+
+/* 
+
+#T .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+#T .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* U */
+
+/* 
+style the left 
+vertical stroke in 
+'U' by combining 
+classes 
+*/
+
+#U .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#U .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#U .horizontal-thin.top {
+    top: 340px;
+    left: 64px;
+}
+
+
+
+#U .horizontal-thin.bottom {
+    top: 0px;
+    left: 64px;
+}
+
+#U .vertical-thin.right {
+    top: 0px;
+    left: 180px;
+}
+
+/* 
+
+#U .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+U .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* V */
+
+/* 
+style the left 
+vertical stroke in 
+'V' by combining 
+classes 
+*/
+
+#V .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+
+
+#V .horizontal-thin.top {
+    top: 340px;
+    left: 64px;
+}
+
+
+
+
+
+#V .vertical-thin.right {
+    top: 0px;
+    left: 180px;
+    transform: rotate(53deg);
+}
+
+
+/* 
+
+#V .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+V .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* W */
+
+/* 
+style the left 
+vertical stroke in 
+'W' by combining 
+classes 
+*/
+
+#W .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#W .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+
+
+#W .vertical-thin.right {
+    top: 0px;
+    left: 177px;
+}
+
+#W .horizontal-thin.top {
+    top: 300px;
+    left: 52px;
+    transform: rotate(127deg);
+}
+
+
+
+#W .horizontal-thin.middle {
+    top: 290px;
+    left: 100px;
+    transform: rotate(59deg);
+}
+
+
+/* 
+
+#W .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+W .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* X */
+
+/* 
+style the left 
+vertical stroke in 
+'X' by combining 
+classes 
+*/
+
+#X .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#X .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#X .horizontal-thin.top {
+    top: 302px;
+    left: -106px;
+    transform: rotate(-45deg);
+}
+
+#X .horizontal-thin.bottom {
+    top: 310px;
+    left: -106px;
+    transform: rotate(-45deg);
+}
+
+
+
+#X .horizontal-thin.bottom {
+    top: 39px;
+    left: 64px;
+}
+
+/* 
+
+#X .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+X .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* Y */
+
+/* 
+style the left 
+vertical stroke in 
+'Y' by combining 
+classes 
+*/
+
+#Y .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#Y .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+
+
+#Y .horizontal-thin.bottom {
+    top: 51px;
+    left: 63px;
+    transform: rotate(-58deg);
+}
+
+
+
+#Y .horizontal-thin.bottom {
+    top: 39px;
+    left: 64px;
+}
+
+/* 
+
+#Y .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+Y .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
+/* Z */
+
+/* 
+style the left 
+vertical stroke in 
+'Z' by combining 
+classes 
+*/
+
+#Z .vertical.left {
+    left: 0px;
+    top: 0px;
+}
+
+#Z .vertical.right {
+    right: 0px;
+    top: 0px;
+}
+
+#Z .horizontal-thin.top {
+    top: 340px;
+    left: 0px;
+}
+
+
+
+#Z .horizontal-thin.bottom {
+    top: 0px;
+    left: 64px;
+}
+
+#Z .horizontal-thin.middle {
+    top: 0px;
+    left: -52px;
+}
+
+/* 
+
+#Z .vertical {
+	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+Z .horizontal {
+	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+}
+
+*/
