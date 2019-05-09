@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(255, 255, 255)
+}
+
+
+a {
+  color: rgb(221, 198, 64);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+.inner-shape {
+  width: 100px;
+  height: 100px;
+  background: rgb(205, 165, 34);
+
+
+}
+
+.outer-shape {
+  width: 600px;
+  height: 600px;
+  background: rgb(198, 136, 136);
+}
+
+.outer-shape:hover>.inner-shape {
+  background: rgb(215, 12, 12);
+}
+
+div:hover~div {
+  background: rgb(255, 255, 255);
+}
+
+.outer-shape:hover .inner-shape:nth-child(odd) {
+  background: rgb(205, 165, 34);
+}
+
+.bg-img {
+    background-color: rgb(255, 255, 255);
+    animation: rgb(255, 255, 255);
+    background-image:url("image/Ee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+    opacity: 1;
+    animation-name: picture-opacity;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes picture-opacity {
+  0% {opacity: 1;}
+  30% {opacity : 0;}
+  50% {opacity : 0;}
+  100% {opacity: 1;}
+}
+
+#question {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(247, 241, 79);
+  width: 100vw;
+  height: 100vh;
+  font-size: 120px;
+  font-family: 'Lobster', cursive;
+}
+
+
+
