@@ -10,6 +10,21 @@ body {
     margin: 63px;
 }
 
+/* this is the animation */
+@keyframes slide-left {
+
+    /* this tells each piece to start 100px to the left of where it should end up */
+    from {
+        transform: translateX(-100px);
+    }
+
+    /* this tells each piece to end in the correct location, and to become fully visible */
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -109,82 +124,54 @@ img {
 }
 
 
-
 /* A */
-
-/* 
-style the left 
-vertical stroke in 
-'A' by combining 
-classes 
-*/
 
 .vertical.left {
     left: 0px;
     top: 0px;
 }
 
-
-.vertical.right {
-    right: 0px;
-    top: 0px;
-}
-
-
 .vertical-thin.right {
     right: 0px;
     top: 0px;
-    color: blue;
+    opacity: 0;
 }
-
-
-
-.vertical-thin-half.right.top {
-    right: 0px;
-    top: 0px;
-}
-
-.vertical-thin-half.right.bottom {
-    right: 0px;
-    bottom: 0px;
-}
-
 
 .horizontal-thin.top {
     top: 170px;
     left: 85px;
-}
-
-.horizontal.middle {
-    top: 0px;
-    left: 0px;
+    opacity: 0;
 }
 
 .horizontal-thin.middle {
     top: 0px;
     left: 85px;
+    opacity: 0;
 }
 
-/* 
 
-#A .vertical {
-	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* A hover*/
+
+/* this says, when you hover on the red vertical piece, start the animation on the .vertical-thin.right piece */
+.vertical.left:hover~.vertical-thin.right {
+    animation: slide-left 0.5s forwards;
 }
 
-#A .horizontal {
-	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.top piece */
+.vertical.left:hover~.horizontal-thin.top {
+    animation: slide-left 0.5s forwards;
 }
 
-*/
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.middle piece */
+.vertical.left:hover~.horizontal-thin.middle {
+    animation: slide-left 0.5s forwards;
+}
+
+
 
 /* B */
 
-/* 
-style the left 
-vertical stroke in 
-'A' by combining 
-classes 
-*/
+
 
 #B .vertical.left {
     left: 0px;
@@ -212,17 +199,38 @@ classes
 }
 
 
-/* 
+/* B hover*/
 
-#B .vertical {
-	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* this says, when you hover on the red vertical piece, start the animation on the .vertical-thin.right piece */
+.vertical.left:hover~.vertical-thin.right {
+    animation: slide-left 0.5s forwards;
 }
 
-B .horizontal {
-	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.top piece */
+.vertical.left:hover~.horizontal-thin.top {
+    animation: slide-left 0.5s forwards;
 }
 
-*/
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.middle piece */
+.vertical.left:hover~.horizontal-thin.middle {
+    animation: slide-left 0.5s forwards;
+}
+
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.bottom piece */
+.vertical.left:hover~.horizontal-thin.bottom {
+    animation: slide-left 0.5s forwards;
+}
+
+/* this says, when you hover on the red vertical piece, start the animation on the .vertical-thin-half.right.bottom piece */
+.vertical.left:hover~.vertical-thin-half.right.bottom {
+    animation: slide-left 0.5s forwards;
+}
+
+/* this says, when you hover on the red vertical piece, start the animation on the .vertical-thin-half.bottom.left piece */
+.vertical.left:hover~.vertical-thin-half.bottom.left {
+    animation: slide-left 0.5s forwards;
+}
+
 
 /* C */
 
@@ -589,12 +597,7 @@ J .horizontal {
 */
 /* K */
 
-/* 
-style the left 
-vertical stroke in 
-'K' by combining 
-classes 
-*/
+
 
 #K .vertical.left {
     left: 0px;
@@ -622,17 +625,21 @@ classes
 }
 
 
-/* 
+/* K hover*/
 
-#K .vertical {
-	background-image: repeating-linear-gradient(to right, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.bottom piece */
+.vertical.left:hover~.horizontal-thin.bottom {
+    animation: slide-left 0.5s forwards;
+    transform: rotate(53deg);
 }
 
-K .horizontal {
-	background-image: repeating-linear-gradient(to bottom, transparent, transparent 5px, #fff 5px, #fff 7px, transparent 7px);		
+/* this says, when you hover on the red vertical piece, start the animation on the .horizontal-thin.top piece */
+.vertical.left:hover~.horizontal-thin.top {
+    animation: slide-left 0.5s forwards;
+    transform: rotate(-50deg);
 }
 
-*/
+
 /* L */
 
 /* 
